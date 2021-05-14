@@ -1,6 +1,12 @@
 // 1. Import *useState* and *useEffect*
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
     // 2. Create our *dogImage* variable as well as the *setDogImage* function via useState
